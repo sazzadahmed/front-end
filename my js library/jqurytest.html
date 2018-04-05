@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/jquery.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jq/js.js"></script>
+	<title>THis is simple jquery test</title>
+</head>
+<body>
+
+	<div class='class_a'>
+		<div class="class_b">
+			<p id='pp'>make some mazic with it</p>
+			<p id='pp'> Dont make with me func buddy</p>
+		</div>
+		<div class="class_b">
+			
+		</div>
+		<div class="class_b">
+			
+		</div>
+		
+	</div>
+	<button>click me</button>>
+</body>
+<script>
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('.class_b').css('background-color','gray');
+				$('#pp').css('color','gold');
+
+			});
+		});
+</script>
+</html>

@@ -1,0 +1,21 @@
+.class_a{
+	width:600px;
+	height: 600px;
+	background-color: blue;
+}
+.class_b{
+	width:200px;
+	height: 200px;
+	background-color: red;
+	float:left;
+	margin: 20px;
+	overflow: hidden;
+	transition: 1s ease;
+
+
+}
+##pp
+{
+	color:black;
+	transition: 1s ease;
+}
